@@ -1,6 +1,6 @@
 # Find the Name of the Day
 
-A simple command-line application written in JavaScript that determines the name of the day in a week based on user input. It utilizes a `switch-case` statement to map numbers (1-7) to their respective weekday names.
+A simple command-line JavaScript program that determines the day of the week based on user input.
 
 ## Features
 - **User Input Handling**: Accepts a number input from the user (1-7).
@@ -13,28 +13,23 @@ A simple command-line application written in JavaScript that determines the name
 
 ## Usage
 
-1. Clone the repository:
-```bash
-git clone https://github.com/raktimrabha/day_name_finder
-```
-2. Navigate to the project directory:
-```bash
-cd day_name_finder
-```
-3. Install dependencies:
-```bash
-npm install prompt-sync
-```
-4. Run the application:
-```bash
-node dayFinder.js
-```
-5. Enter a number between 1 and 7 to get the corresponding day of the week.
+1. Navigate to the project folder:
+   ```bash
+   cd Week1/findDay-01
+   ```
+2. Install dependencies:
+   ```bash
+   npm install prompt-sync
+   ```
+3. Run the script using Node.js:
+   ```bash
+   node dayFinder.js
+   ```
+4. Enter a number between 1 and 7 to get the corresponding day of the week.
 
 ## File Structure
-
-- `dayFinder.js`: Main script that handles user input and determines the day of the week.
-- `README.md`: Documentation and usage instructions.
+- `dayFinder.js` - Main script for determining the day.
+- `README.md` - Documentation and instructions.
 
 ## Contributing
 Feel free to fork the repository, open issues, and submit pull requests if you find bugs or want to add new features.
@@ -47,7 +42,7 @@ To contribute:
 5. Submit a pull request to the main repository.
 
 ## License
-This project is open-source and available under the MIT License.
+This project is open-source under the MIT License.
 
 ## Acknowledgments
 Special thanks to the open-source community for inspiration and contributions to beginner-friendly projects.
