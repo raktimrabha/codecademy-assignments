@@ -4,21 +4,15 @@ This repository contains various JavaScript assignments completed as part of Cod
 
 ## Folder Structure
 ```
-Week1/
-│-- Assign-01/
+
+Assignments/
+│-- Week-01/
 │   │-- assign1.js
 │   │-- README.md
-│-- Assign-02/
+│-- Week-02/
 │   │-- assign2.js
 │   │-- README.md
 
-Week2/
-│-- Assign-01/
-│   │-- assign1.js
-│   │-- README.md
-│-- Assign-02/
-│   │-- assign2.js
-│   │-- README.md
 ```
 
 
