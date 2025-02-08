@@ -1,6 +1,6 @@
 # Codecademy Assignments
 
-This repository contains various JavaScript assignments completed as part of Codecademy exercises. Each assignment is organized into separate folders by week and project name.
+This repository contains various JavaScript assignments completed as part of Codecademy exercises. Each assignment is organized into separate folders by week and assignment or project name.
 
 ## Folder Structure
 ```
@@ -21,16 +21,20 @@ Week2/
 │   │-- README.md
 ```
 
-## Projects Overview
 
-### Day-Name-Finder-01
-A simple command-line application that determines the day of the week based on a numeric input (1-7). It uses a `switch-case` statement to map numbers to day names.
+## Projects Overview  
 
-### To-Do-List-App-02
-A command-line To-Do List application that allows users to add, complete, and delete tasks interactively using JavaScript.
+### **Week 1**  
 
-### Calculator-03
-A basic calculator script that performs arithmetic operations such as addition, subtraction, multiplication, and division based on user input.
+1. **Day-Name-Finder-01**  
+   - A command-line program that determines the day of the week based on user input (1-7) using a `switch-case` statement.  
+
+2. **To-Do-List-App-02**  
+   - An interactive CLI-based To-Do List application that allows users to add, mark complete, and delete tasks.  
+
+3. **Calculator-03**  
+   - A simple JavaScript calculator that performs basic arithmetic operations like addition, subtraction, multiplication, and division.  
+
 
 ## Getting Started
 
