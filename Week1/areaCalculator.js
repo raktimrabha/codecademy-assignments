@@ -19,8 +19,6 @@ switch (userInput) {
         // Circle Area: π × r × r 
         let radius = +prompt("Enter a radius: ");
         let circleArea = Math.PI * radius * radius;
-        circleArea.toFixed(2);
-
         console.log(`The area of the Circle is: ${circleArea.toFixed(2)}`);
         break;
 
