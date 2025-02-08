@@ -36,6 +36,6 @@ switch (userInput) {
         console.log(`${userInput} : The day is Sunday\n`)
         break;
     default:
-        console.log("Invalid input. Please enter a number between 1 and 7.")
+        console.log("Invalid input. Please enter a number between 1 and 7.\n")
         break;
 }
