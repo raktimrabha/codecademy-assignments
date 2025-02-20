@@ -27,7 +27,7 @@
 5. **findTriangle.js**  
    - A JavaScript program that determines the type of a triangle based on user-input side lengths.  
    - Uses a `switch-case` statement to classify triangles as Equilateral, Isosceles, or Scalene.  
-   - Checks whether the gfiven sides form a valid triangle before classification.  
+   - Checks whether the given sides form a valid triangle before classification.  
    - Displays an appropriate message for invalid triangles.
 ## Requirements
 - Node.js installed on your system.
