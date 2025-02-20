@@ -15,7 +15,7 @@ This repository contains **Week 1 JavaScript Assignments**, focusing on **condit
 - Uses a **`switch-case`** statement to map numbers to corresponding days.  
 - Displays an **error message** for invalid inputs (out of range or non-numeric).  
 
-
+--
 
 ### 📝 2. areaCalculator.js – Area Calculator  
 🔹 A **console-based calculator** that computes the area of different shapes.  
@@ -25,7 +25,7 @@ This repository contains **Week 1 JavaScript Assignments**, focusing on **condit
 - Asks the user to choose a shape and enter dimensions.  
 - Displays the **calculated area** or an **error message** for invalid inputs.  
 
-
+--
 
 ### 📝 3. findPrime.js – Prime Number Checker  
 🔹 A **JavaScript program** that checks whether a given number is **prime**.  
@@ -35,7 +35,7 @@ This repository contains **Week 1 JavaScript Assignments**, focusing on **condit
 - Displays messages indicating whether the number is **prime** or **not prime**.  
 - Includes error handling for invalid inputs.  
 
-
+--
 
 ### 📝 4. numberInput.js – Continuous Input Handler  
 🔹 A **Node.js console program** that takes continuous user input until the user enters `0`.  
@@ -45,11 +45,11 @@ This repository contains **Week 1 JavaScript Assignments**, focusing on **condit
 - Handles **invalid inputs** gracefully.  
 - Displays `"End"` and **terminates** when `0` is entered.  
 
-
+--
 
 ### 📝 5. findTriangle.js – Triangle Type Detector  
 🔹 A **JavaScript program** that determines the type of a triangle based on user-input side lengths.  
-
+--
 #### 📌 Features:  
 - Uses a **`switch-case`** statement to classify triangles as **Equilateral, Isosceles, or Scalene**.  
 - Validates if the given sides **form a triangle** before classification.  
@@ -78,10 +78,12 @@ This repository contains **Week 1 JavaScript Assignments**, focusing on **condit
    ```
 
 ## 📁 File Structure
+```
 Week1/
-│── findDay.js        # Determines the day of the week  
-│── areaCalculator.js # Calculates area of different shapes  
-│── findPrime.js      # Checks if a number is prime  
-│── numberInput.js    # Accepts user input until 0 is entered  
-│── findTriangle.js   # Determines the type of a triangle  
-│── README.md         # Documentation and instructions  
+│── findDay.js
+│── areaCalculator.js
+│── findPrime.js
+│── numberInput.js
+│── findTriangle.js
+│── README.md
+```
