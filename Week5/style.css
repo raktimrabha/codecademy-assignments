@@ -1,0 +1,26 @@
+body {
+  background-color: gray;
+
+}
+
+
+header {
+  background-color: black;
+  color: white;
+  
+}
+
+logo {
+  display: flex;
+  align-content: center;
+}
+
+nav {
+  display: inline;
+  flex-direction: row;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
