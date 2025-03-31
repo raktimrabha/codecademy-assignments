@@ -1,0 +1,168 @@
+/* style.css */
+
+/* Fonts */
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: #f9f8f4; /* Default background */
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Poppins", sans-serif; /* Heading font */
+  }
+  
+  /* Theme Colors */
+  :root {
+    --bs-primary: #f75023; /* Orange theme color */
+    --bs-primary-rgb: 247, 80, 35;
+    --bs-dark: #0b112f; /* Dark color for footer/hover */
+    --bs-dark-rgb: 11, 17, 47;
+    --bs-light-orange: rgba(247, 80, 35, 0.1);
+    --bs-light-blue: rgba(38, 77, 228, 0.1);
+    --bs-light-react: rgba(97, 219, 251, 0.1);
+    --bs-light-bootstrap: rgba(111, 66, 193, 0.1);
+    --bs-html-color: #e34c26;
+    --bs-css-color: #264de4;
+    --bs-react-color: #61dbfb;
+    --bs-bootstrap-color: #7952b3;
+  }
+  
+  .btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--bs-dark); /* Darker hover */
+    --bs-btn-hover-border-color: var(--bs-dark);
+    --bs-btn-active-bg: var(--bs-dark);
+    --bs-btn-active-border-color: var(--bs-dark);
+    --bs-btn-disabled-bg: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+  }
+  
+  .text-primary {
+    color: var(--bs-primary) !important;
+  }
+  
+  .bg-main {
+    background-color: #f9f8f4; /* Light background for sections */
+  }
+  
+  /* Navbar */
+  .navbar {
+    transition: all 0.3s ease;
+  }
+  .navbar .nav-link {
+    font-weight: 500;
+    color: #6c757d; /* Grayish text */
+    transition: color 0.3s ease;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .navbar .nav-link:hover,
+  .navbar .nav-link.active {
+    color: var(--bs-primary) !important; /* Theme color on hover/active */
+  }
+  
+  /* Logo specific styles */
+  .logo-img {
+    border-radius: 50%;
+    background-color: var(--bs-light-orange);
+    padding: 5px; /* Adjust padding as needed */
+    outline: 2px solid var(--bs-primary);
+    outline-offset: 2px;
+  }
+  
+  .footer-logo-img {
+    border-radius: 50%;
+    background-color: var(--bs-light-orange);
+    padding: 5px;
+    filter: brightness(0.8); /* Slightly darken for footer */
+  }
+  
+  /* About Section */
+  .profile-img-container {
+    width: 300px; /* Adjust size as needed */
+    height: 300px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white; /* Optional border */
+  }
+  
+  .experience-badge {
+    width: 180px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  
+  @media (min-width: 992px) {
+    /* Adjust for larger screens */
+    .profile-img-container {
+      width: 400px;
+      height: 400px;
+    }
+    .experience-badge {
+      bottom: 40px;
+      left: 20px; /* Position to the side */
+      transform: translateX(0);
+    }
+  }
+  
+  .social-icon:hover {
+    color: var(--bs-primary) !important;
+  }
+  
+  /* Skills & Projects Section */
+  .icon-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bg-light-orange { background-color: var(--bs-light-orange); }
+  .bg-light-blue { background-color: var(--bs-light-blue); }
+  .bg-light-react { background-color: var(--bs-light-react); }
+  .bg-light-bootstrap { background-color: var(--bs-light-bootstrap); }
+  
+  .text-html { color: var(--bs-html-color); }
+  .text-css { color: var(--bs-css-color); }
+  .text-react { color: var(--bs-react-color); }
+  .text-bootstrap { color: var(--bs-bootstrap-color); }
+  
+  .progress-bar.bg-html { background-color: var(--bs-html-color); }
+  .progress-bar.bg-css { background-color: var(--bs-css-color); }
+  .progress-bar.bg-react { background-color: var(--bs-react-color); }
+  .progress-bar.bg-bootstrap { background-color: var(--bs-bootstrap-color); }
+  
+  /* Custom Badge Colors (Examples) */
+  .badge.bg-react { background-color: var(--bs-light-react) !important; color: var(--bs-react-color) !important; border: 1px solid var(--bs-react-color);}
+  .badge.bg-bootstrap { background-color: var(--bs-light-bootstrap) !important; color: var(--bs-bootstrap-color) !important; border: 1px solid var(--bs-bootstrap-color);}
+  /* Add more custom badge styles if needed */
+  
+  
+  /* Footer */
+  footer {
+    background-color: var(--bs-dark);
+  }
+  .social-icon-footer:hover {
+    color: var(--bs-primary) !important;
+  }
+  
+  /* Smooth Scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+
+
+// scss - file
+@import "./node_modules/bootstrap/scss/bootstrap.scss";

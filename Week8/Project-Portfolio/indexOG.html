@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./src/img/logo-black.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>raktimrabha</title>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm">
+            <div class="container py-2">
+                <a class="navbar-brand" href="#">
+                    <img src="./src/img/logo-white.png" alt="Logo" width="30" height="24"
+                        class="d-inline-block align-text-top">
+                </a>
+                <span class="navbar-text fs-4 fw-bold d-none d-lg-inline-block ms-3">raktimrabha</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <div class="navbar-nav gap-lg-2">
+                        <a class="nav-link active" aria-current="" href="#home">Home</a>
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#contact">Hire Me</a>
+                        <a class="nav-link" href="#more-info">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Profile info -->
+
+
+    <section>
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <!-- image -->
+                <div class="col-lg-5">
+                    <div class="position-relative text-center text-lg-start">
+                        <div class="profile-img-container mx-auto mx-lg-0 shadow" style="
+                          background-image: url('./src/img/profile-work.jpg');
+                        ">
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="d-flex" style="height: 100vh; background-color: #f8f9fa;">
+        <div class="container">
+            <h1 class="display-4">Hey I'm</h1>
+            <h1 class="fw-bold">Raktim Rabha</h>
+                <p class="lead mt-3">
+                    <i class="bi bi-code-slash"></i> Web Developer
+                </p>
+                <a href="#project" class="btn btn-primary btn-lg mt-4">Veiw My Work</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-main">
+        <div class="container text-center">
+            <h2 class="display-6 fw-semibold text-primary mb-3">My Skills</h2>
+            <p class="lead text-muted mb-5">
+                Technologies I have mastered over the years.
+            </p>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Skill Card 1: HTML5 -->
+                <div class="col-md-6 col-lg-3 d-flex">
+                    <div class="card h-100 w-100 p-4 text-center shadow-sm">
+                        <div class="icon-circle bg-light-orange mx-auto mb-3">
+                            <i class="fab fa-html5 fs-1 text-html"></i>
+                        </div>
+                        <div class="card-body p-0">
+                            <h5 class="card-title fw-semibold mb-2">HTML5</h5>
+                            <p class="card-text text-muted small">
+                                Structuring web content semantically.
+                            </p>
+                            <div class="progress mt-3" style="height: 10px">
+                                <div class="progress-bar bg-html" role="progressbar" style="width: 90%"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span class="small text-muted mt-1 d-block">8.5/10</span>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-5" />
+    </section>
+
+     <!-- Footer -->
+     <footer class="bg-dark text-white py-5">
+        <div class="container text-center">
+          <a href="#">
+            <img
+              src="./src/svg/logo1.png"
+              alt="logo"
+              class="footer-logo-img mb-3"
+              width="80"
+              height="80"
+            />
+            <!-- Add custom CSS for background/filter -->
+          </a>
+          <p class="text-white-50 mb-4">
+            © <span id="current-year"></span> 2025 Raktim Rabha. All rights reserved.
+          </p>
+          <ul class="list-inline mb-0 d-flex justify-content-center gap-3">
+            <li class="list-inline-item">
+              <a href="#" class="text-white-50 fs-4 social-icon-footer">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-white-50 fs-4 social-icon-footer">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-white-50 fs-4 social-icon-footer">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-white-50 fs-4 social-icon-footer">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="./src/img/favicon.png" type="image/x-icon" />
+
+    <!-- Custom CSS (for theme colors and minor adjustments) -->
+    <link rel="stylesheet" href="" />
+
+    <title>Raktim Rabha - Portfolio</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100">
+    <!-- Header -->
+    <header class="sticky-top">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white shadow-sm"
+        id="navbar"
+      >
+        <div class="container py-2">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="./src/img/logo-white.png"
+              alt="logo"
+              class="logo-img"
+              width="70"
+              height="70"
+            />
+            <!-- Add custom CSS for background/outline -->
+          </a>
+
+          <!-- Portfolio Text (Visible on larger screens) -->
+          <span class="navbar-text fs-4 fw-bold d-none d-lg-inline-block ms-3"
+            >Portfolio</span
+          >
+
+          <!-- Mobile Menu Toggle Button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navigation Links -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav gap-lg-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Hire Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+
+      <!-- About Section -->
+      <section id="about" class="py-5 bg-main">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <!-- Image Column -->
+            <div class="col-lg-5">
+              <div class="position-relative text-center text-lg-start">
+                <div
+                  class="profile-img-container mx-auto mx-lg-0 shadow"
+                  style="
+                    background-image: url('./src/img/profile-work.jpg');
+                  "
+                >
+                  <!-- Background image set via CSS -->
+                </div>
+              </div>
+            </div>
+            <!-- Text Column -->
+            <div class="col-lg-7">
+              <h3 class="text-primary fw-medium mb-2">Hello I'm</h3>
+              <h1 class="display-5 fw-bold">Raktim Rabha</h1>
+              <!-- Changed from John Doe -->
+              <h3 class="fs-5 fw-medium text-dark my-3">
+                A Web Developer from India
+              </h3>
+              <p class="lead text-muted">
+                I create visually appealing and user-friendly websites, ensuring
+                smooth functionality and optimal user experience. My goal is to
+                build responsive, scalable, and high-performance applications.
+              </p>
+              <p class="text-muted">
+                As a professional Web Developer, my motive is to always deliver
+                clean, efficient, and well-structured code while ensuring
+                seamless user interactions. I strive to stay updated with the
+                latest industry trends and technologies.
+              </p>
+              <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center mt-4 gap-4">
+                <a
+                  href="#contact"
+                  class="btn btn-primary rounded-pill py-2 px-4 fw-semibold"
+                  >Hire Me</a
+                >
+                <!-- Changed button text -->
+                <ul class="list-inline mb-0 d-flex gap-3">
+                  <li class="list-inline-item">
+                    <a href="#" class="text-secondary fs-4 social-icon">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="text-secondary fs-4 social-icon">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="text-secondary fs-4 social-icon">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="text-secondary fs-4 social-icon">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr class="my-5" />
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="py-5 bg-main">
+        <div class="container text-center">
+          <h2 class="display-6 fw-semibold text-primary mb-3">My Skills</h2>
+          <p class="lead text-muted mb-5">
+            Technologies I have mastered over the years.
+          </p>
+
+          <div class="row g-4 justify-content-center">
+            <!-- Skill Card 1: HTML5 -->
+            <div class="col-md-6 col-lg-3 d-flex">
+              <div class="card h-100 w-100 p-4 text-center shadow-sm">
+                <div
+                  class="icon-circle bg-light-orange mx-auto mb-3"
+                >
+                  <i class="fab fa-html5 fs-1 text-html"></i>
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title fw-semibold mb-2">HTML5</h5>
+                  <p class="card-text text-muted small">
+                    Structuring web content semantically.
+                  </p>
+                  <div class="progress mt-3" style="height: 10px">
+                    <div
+                      class="progress-bar bg-html"
+                      role="progressbar"
+                      style="width: 85%"
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                  <span class="small text-muted mt-1 d-block">8.5/10</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill Card 2: CSS3 -->
+            <div class="col-md-6 col-lg-3 d-flex">
+              <div class="card h-100 w-100 p-4 text-center shadow-sm">
+                <div
+                  class="icon-circle bg-light-blue mx-auto mb-3"
+                >
+                  <i class="fab fa-css3-alt fs-1 text-css"></i>
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title fw-semibold mb-2">CSS3</h5>
+                  <p class="card-text text-muted small">
+                    Styling websites with modern techniques.
+                  </p>
+                  <div class="progress mt-3" style="height: 10px">
+                    <div
+                      class="progress-bar bg-css"
+                      role="progressbar"
+                      style="width: 70%"
+                      aria-valuenow="70"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                  <span class="small text-muted mt-1 d-block">7/10</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill Card 3: React JS -->
+            <div class="col-md-6 col-lg-3 d-flex">
+              <div class="card h-100 w-100 p-4 text-center shadow-sm">
+                <div
+                  class="icon-circle bg-light-react mx-auto mb-3"
+                >
+                  <i class="fab fa-react fs-1 text-react"></i>
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title fw-semibold mb-2">React JS</h5>
+                  <p class="card-text text-muted small">
+                    Building dynamic user interfaces.
+                  </p>
+                  <div class="progress mt-3" style="height: 10px">
+                    <div
+                      class="progress-bar bg-react"
+                      role="progressbar"
+                      style="width: 90%"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                  <span class="small text-muted mt-1 d-block">9/10</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill Card 4: Bootstrap (Example) -->
+            <div class="col-md-6 col-lg-3 d-flex">
+              <div class="card h-100 w-100 p-4 text-center shadow-sm">
+                <div
+                  class="icon-circle bg-light-bootstrap mx-auto mb-3"
+                >
+                  <i class="fab fa-bootstrap fs-1 text-bootstrap"></i>
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title fw-semibold mb-2">Bootstrap 5</h5>
+                  <p class="card-text text-muted small">
+                    Rapid responsive front-end development.
+                  </p>
+                  <div class="progress mt-3" style="height: 10px">
+                    <div
+                      class="progress-bar bg-bootstrap"
+                      role="progressbar"
+                      style="width: 80%"
+                      aria-valuenow="80"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                  <span class="small text-muted mt-1 d-block">8/10</span>
+                </div>
+              </div>
+            </div>
+            <!-- Add more skill cards as needed -->
+          </div>
+          <hr class="my-5" />
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="py-5 bg-main">
+        <div class="container text-center">
+          <h2 class="display-6 fw-semibold text-primary mb-3">My Projects</h2>
+          <p class="lead text-muted mb-5">
+            Here are some projects showcasing my expertise.
+          </p>
+
+          <div class="row g-4 justify-content-center">
+            <!-- Project Card 1 -->
+            <div class="col-md-6 col-lg-3 d-flex">
+              <div class="card h-100 w-100 p-4 text-center shadow-sm">
+                <div
+                  class="icon-circle bg-light-orange mx-auto mb-3"
+                >
+                  <i class="fas fa-laptop-code fs-1 text-primary"></i>
+                </div>
+                <div class="card-body p-0 d-flex flex-column">
+                  <h5 class="card-title fw-semibold mb-2">
+                    E-Commerce Platform
+                  </h5>
+                  <p class="card-text text-muted small flex-grow-1">
+                    Fully responsive e-commerce site with user-friendly UI.
+                  </p>
+                  <div class="mt-3">
+                    <span class="badge rounded-pill bg-react text-dark m-1"
+                      >React</span
+                    >
+                    <span class="badge rounded-pill bg-success m-1"
+                      >Node.js</span
+                    >
+                    <span class="badge rounded-pill bg-info text-dark m-1"
+                      >MongoDB</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="col-md-6 col-lg-3 d-flex">
+              <div class="card h-100 w-100 p-4 text-center shadow-sm">
+                <div
+                  class="icon-circle bg-light-blue mx-auto mb-3"
+                >
+                  <i class="fas fa-blog fs-1 text-primary"></i>
+                </div>
+                <div class="card-body p-0 d-flex flex-column">
+                  <h5 class="card-title fw-semibold mb-2">Personal Blog</h5>
+                  <p class="card-text text-muted small flex-grow-1">
+                    Clean blog sharing web development insights.
+                  </p>
+                  <div class="mt-3">
+                    <span class="badge rounded-pill bg-dark m-1">Next.js</span>
+                    <span class="badge rounded-pill bg-secondary m-1"
+                      >Tailwind</span
+                    >
+                    <span class="badge rounded-pill bg-light text-dark m-1"
+                      >Markdown</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="col-md-6 col-lg-3 d-flex">
+              <div class="card h-100 w-100 p-4 text-center shadow-sm">
+                <div
+                  class="icon-circle bg-light-react mx-auto mb-3"
+                >
+                  <i class="fas fa-database fs-1 text-primary"></i>
+                </div>
+                <div class="card-body p-0 d-flex flex-column">
+                  <h5 class="card-title fw-semibold mb-2">
+                    Inventory Management
+                  </h5>
+                  <p class="card-text text-muted small flex-grow-1">
+                    Web-based system to track inventory and orders.
+                  </p>
+                  <div class="mt-3">
+                    <span class="badge rounded-pill bg-warning text-dark m-1"
+                      >Django</span
+                    >
+                    <span class="badge rounded-pill bg-info text-dark m-1"
+                      >PostgreSQL</span
+                    >
+                    <span class="badge rounded-pill bg-bootstrap text-dark m-1"
+                      >Bootstrap</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Card 4 -->
+            <div class="col-md-6 col-lg-3 d-flex">
+              <div class="card h-100 w-100 p-4 text-center shadow-sm">
+                <div
+                  class="icon-circle bg-light-bootstrap mx-auto mb-3"
+                >
+                  <i class="fas fa-mobile-alt fs-1 text-primary"></i>
+                </div>
+                <div class="card-body p-0 d-flex flex-column">
+                  <h5 class="card-title fw-semibold mb-2">Mobile App UI</h5>
+                  <p class="card-text text-muted small flex-grow-1">
+                    Beautifully designed mobile app interface.
+                  </p>
+                  <div class="mt-3">
+                    <span class="badge rounded-pill bg-danger m-1"
+                      >Flutter</span
+                    >
+                    <span class="badge rounded-pill bg-warning text-dark m-1"
+                      >Firebase</span
+                    >
+                    <span class="badge rounded-pill bg-success m-1">Dart</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Add more project cards -->
+          </div>
+          <hr class="my-5" />
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="py-5 bg-main">
+        <div class="container text-center">
+          <h2 class="display-6 fw-semibold text-primary mb-3">Hire Me</h2>
+          <p class="lead text-muted mb-5">
+            Feel free to reach out for collaborations or just a friendly hello.
+          </p>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-7">
+              <form
+                class="card p-4 p-md-5 shadow-sm text-start"
+                action="#"
+                method="POST"
+              >
+                <!-- Add action URL or handle with JS -->
+                <div class="mb-3">
+                  <label for="name" class="form-label fw-medium">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label fw-medium">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label fw-medium"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Your Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="text-center">
+                  <button
+                    type="submit"
+                    class="btn btn-primary rounded-pill py-2 px-4 fw-semibold"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+      <div class="container text-center">
+        <a href="#">
+          <img
+            src="./src/img/logo-black.png"
+            alt="logo"
+            class="footer-logo-img mb-3"
+            width="80"
+            height="80"
+          />
+          <!-- Add custom CSS for background/filter -->
+        </a>
+        <p class="text-white-50 mb-4">
+          © <span id="current-year"></span> Raktim Rabha. All rights reserved.
+        </p>
+        <ul class="list-inline mb-0 d-flex justify-content-center gap-3">
+          <li class="list-inline-item">
+            <a href="#" class="text-white-50 fs-4 social-icon-footer">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-white-50 fs-4 social-icon-footer">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-white-50 fs-4 social-icon-footer">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-white-50 fs-4 social-icon-footer">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Simple JS for current year -->
+    <script>
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
